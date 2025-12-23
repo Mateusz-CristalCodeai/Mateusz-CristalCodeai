@@ -27,34 +27,10 @@ Python developer based in Katowice, Poland.
 | [Project 3](link) | One sentence about the goal | [tech, tech] |
 
 ## Tech stack
-- Systems: <p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=arch" alt="Arch Linux" />
-  </a>
-  
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu" />
-  </a>
- 
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=windows" alt="Windows" />
-  </a>
-</p>
-- Languages: <p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,sql,html" alt="Tools" />
-  </a>
-</p>
-- Frameworks:<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=fastapi,qt" alt="Tools" />
-  </a>
-</p>
-- Tools: <p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=docker,postgres,sqlite,git,figma,matlab" alt="Tools" />
-  </a>
-</p>
+- Systems: <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=arch" alt="Arch Linux" /></a> <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu" /></a> <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=windows" alt="Windows" /></a>
+- Languages: <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,html" alt="Languages" /></a>
+- Frameworks: <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=fastapi,qt" alt="Frameworks" /></a>
+- Tools: <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,postgres,sqlite,git,figma,matlab" alt="Tools" /></a>
 
 
 ## Now / Next
