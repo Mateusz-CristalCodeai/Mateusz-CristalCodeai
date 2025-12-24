@@ -1,0 +1,296 @@
+# Instrukcja szczegółowa: Budowa README w stylu Matrix 
+
+Ten dokument jest  instrukcją opartą na realnym procesie tworzenia README w stylu Matrix, wraz z problemami, które faktycznie pojawiają się w trakcie pracy (renderowanie GitHuba, cache, SVG, Vercel, tokeny, underline, layout, itp.).
+
+Instrukcja **nie zakłada wiedzy idealnej**. Zakłada gubienie się, cofanie kroków, sprawdzanie wyników i iteracyjne poprawki.
+
+Celem nie jest „ładne README”, tylko **zrozumienie jak GitHub naprawdę renderuje treść** oraz jak łączyć frontend, backend i infrastrukturę w ograniczonym środowisku.
+
+---
+
+## Czego uczy to ćwiczenie 
+
+To ćwiczenie rozwija jednocześnie kilka kluczowych kompetencji:
+
+* praktyczne zrozumienie jak GitHub renderuje Markdown + HTML (a czego NIE renderuje)
+* pracę z assetami statycznymi (GIF, SVG, raw.githubusercontent)
+* diagnozowanie problemów layoutu, których nie da się rozwiązać CSS-em
+* bezpieczne używanie tokenów API bez ich ujawniania
+* deploy aplikacji serverless (Vercel) oraz zarządzanie cache
+* myślenie systemowe: jeden błąd = efekt w innym miejscu
+
+
+---
+
+## 0) Efekt końcowy – jak ma wyglądać system
+
+Na końcu istnieją CZTERY elementy, które razem tworzą całość:
+
+1. Repozytorium profilu (login/login)
+
+   * GitHub renderuje jego README na stronie profilu użytkownika
+
+2. Folder `assets/`
+
+   * zawiera lokalne pliki graficzne (GIF)
+
+3. Repozytorium do generowania snake SVG
+
+   * generuje pliki SVG przez GitHub Actions
+   * publikuje je publicznie
+
+4. Własna instancja GitHub Readme Stats
+
+   * hostowana na Vercelu
+   * korzysta z tokena PAT
+   * generuje obrazy SVG dynamicznie
+
+Jeżeli którykolwiek z tych elementów nie działa → README się „psuje”.
+
+---
+
+## 1) Repozytorium profilu – fundament
+
+### Dlaczego to repo jest wyjątkowe
+
+GitHub posiada **jeden wyjątek** od standardowego zachowania repozytoriów:
+
+> Jeżeli istnieje publiczne repo o nazwie identycznej jak login użytkownika, GitHub renderuje jego README bezpośrednio na stronie profilu.
+
+Dlatego:
+
+* nazwa MUSI być identyczna
+* repo MUSI być publiczne
+* plik MUSI nazywać się `README.md`
+
+### Typowe błędy
+
+* repo prywatne → README się nie pojawia
+* literówka w nazwie repo → README się nie pojawia
+* README w podkatalogu → README się nie pojawia
+
+Zawsze zaczynaj od sprawdzenia tego punktu.
+
+---
+
+## 2) Banner GIF – lokalny asset vs zewnętrzny link
+
+### Dlaczego lokalny plik jest lepszy
+
+GitHub:
+
+* agresywnie cache’uje zewnętrzne obrazy
+* potrafi blokować hotlinking
+* inaczej renderuje obrazy z `raw.githubusercontent.com` i lokalne
+
+Dlatego **banner powinien być lokalnym plikiem**.
+
+### Struktura
+
+```
+assets/
+  matrix_all_in_one_no_eye_strain.gif
+```
+
+### Renderowanie
+
+Używamy składni:
+
+```md
+# <img src="assets/matrix_all_in_one_no_eye_strain.gif" alt="Matrix banner" />
+```
+
+Dlaczego nie `![alt](...)`?
+
+* HTML daje większą kontrolę
+* Markdown czasem zmienia marginesy
+
+---
+
+## 3) Snake SVG – dlaczego SVG, a nie GIF
+
+Snake jest SVG, ponieważ:
+
+* skaluje się bez strat
+* GitHub renderuje SVG inline
+* pozwala na dark/light
+
+### Skąd się bierze snake
+
+Snake NIE jest częścią README.
+
+Jest:
+
+* generowany przez GitHub Actions
+* zapisywany do repo
+* serwowany jako statyczny plik
+
+README tylko go **wyświetla**.
+
+### Dlaczego `<picture>`
+
+GitHub nie udostępnia JS ani CSS, więc jedynym sposobem na dark/light jest:
+
+```html
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="...dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="...light.svg" />
+  <img src="...light.svg" />
+</picture>
+```
+
+---
+
+## 4) Markdown + HTML – co działa, a co NIE
+
+GitHub:
+
+* pozwala na ograniczony HTML
+* ignoruje `<style>`
+* ignoruje klasy CSS
+* nadpisuje część stylów
+
+Dlatego:
+
+* layout robimy przez `<div>` i inline-style
+* NIE próbujemy pisać CSS
+
+---
+
+## 5) Najtrudniejszy problem: „podłoga” pod obrazami
+
+### Objaw
+
+Pod kartami statystyk pojawia się cienka linia.
+
+### Fałszywe tropy (nie działa)
+
+* `display:block`
+* `text-decoration:none`
+* `vertical-align`
+* `line-height:0`
+
+### Prawdziwa przyczyna
+
+To NIE był underline CSS.
+
+To był:
+
+* efekt renderowania `<a>` + SVG + focus outline
+
+### Rozwiązanie
+
+NIE owijamy obrazów w `<a>`.
+
+Poprawny wariant:
+
+```html
+<div style="display:flex; gap:12px; align-items:flex-start; flex-wrap:wrap;">
+  <img height="180" src="STATS_URL" />
+  <img height="180" src="LANGS_URL" />
+</div>
+```
+
+---
+
+## 6) GitHub Readme Stats – dlaczego NIE publiczny endpoint
+
+Publiczny endpoint:
+
+* ma limity
+* nie liczy prywatnych repo
+* bywa niedostępny
+
+Dlatego:
+
+* fork
+* Vercel
+* własny token
+
+---
+
+## 7) Token PAT – realne zagrożenia i bezpieczeństwo
+
+### Co NIE jest zagrożeniem
+
+* link do endpointu
+* link do SVG
+* publiczny README
+
+### Co JEST zagrożeniem
+
+* token w repo
+* token w URL
+* token bez ograniczeń
+
+### Zasady
+
+* fine-grained token
+* read-only
+* tylko repo
+* trzymany wyłącznie w Vercel ENV
+
+---
+
+## 8) Cache – dlaczego zmiany „nie działają"
+
+GitHub:
+
+* cache’uje obrazy
+* cache’uje SVG
+
+Dlatego:
+
+* używamy `&v=1`, `&v=2`, ...
+* zmiana parametru = nowy request
+
+---
+
+## 9) Debugowanie – jak myśleć
+
+Zawsze sprawdzaj:
+
+1. Czy link działa w przeglądarce
+2. Czy obraz otwiera się sam
+3. Czy problem jest w README czy w źródle
+4. Czy to cache
+
+README NIE daje narzędzi debugowania.
+
+Myślenie musi być systemowe.
+
+---
+
+## 10) Dlaczego to ćwiczenie jest ważne
+
+Bo łączy:
+
+* frontend
+* backend
+* infra
+* bezpieczeństwo
+
+w miejscu, gdzie **nie masz pełnej kontroli**.
+
+To dokładnie ta sama sytuacja co w realnych systemach produkcyjnych.
+
+---
+
+## 11) Checklista końcowa
+
+* [ ] Repo profilu działa
+* [ ] GIF lokalny
+* [ ] Snake SVG działa
+* [ ] Staty bez podłogi
+* [ ] Token bezpieczny
+* [ ] Cache ogarnięty
+
+---
+
+Jeżeli ktoś utknie na którymkolwiek etapie:
+
+* wraca do poprzedniego kroku
+* sprawdza jeden element
+* nie próbuje naprawiać wszystkiego naraz
+
+To jest **proces inżynierski**, nie dekoracyjny.
