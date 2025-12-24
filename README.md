@@ -58,15 +58,23 @@ Currently: Building an app for senior care facilities that helps manage HR resou
 -  Working on the release of a medical application  
 -  If the launch and sales are successful, I plan to develop more biomedical projects
 
-
 ## Contact
 
 <a href="mailto:mateusz.nawrot.code.ai@gmail.com"><img src="https://img.shields.io/badge/Email-mateusz.nawrot.code.ai%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://www.linkedin.com/in/mateusz-nawrot-cristalcode/"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn" /></a>
+<div style="display:flex; gap:12px; align-items:flex-start; flex-wrap:wrap;">
+  <img
+    height="180"
+    src="https://github-readme-stats-vercel-one.vercel.app/api?username=Mateusz-CristalCodeai&show_icons=true&include_all_commits=true&count_private=true&theme=dark&title_color=00FF41&text_color=00FF41&icon_color=00FF41&border_color=00FF41&v=5"
+    alt="GitHub stats"
+  />
+  <img
+    height="180"
+    src="https://github-readme-stats-vercel-one.vercel.app/api/top-langs/?username=Mateusz-CristalCodeai&layout=compact&theme=dark&title_color=00FF41&text_color=00FF41&border_color=00FF41&v=5"
+    alt="Top Languages"
+  />
+</div>
 
-![GitHub stats](https://github-readme-stats-vercel-one.vercel.app/api?username=Mateusz-CristalCodeai&show_icons=true&include_all_commits=true&count_private=true&theme=dark&title_color=00FF41&text_color=00FF41&icon_color=00FF41&border_color=00FF41&v=2)
-
-![Top Languages](https://github-readme-stats-vercel-one.vercel.app/api/top-langs/?username=Mateusz-CristalCodeai&layout=compact&theme=dark&title_color=00FF41&text_color=00FF41&border_color=00FF41&v=2)
 
 ---
 
