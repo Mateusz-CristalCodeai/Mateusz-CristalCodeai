@@ -1,3 +1,12 @@
+<style>
+:root,
+body,
+.markdown-body {
+  font-family: "Matrix Code", "Share Tech Mono", "JetBrains Mono", ui-monospace, SFMono-Regular,
+    Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+</style>
+
 # <img src="assets/matrix_all_in_one_no_eye_strain.gif" alt="Matrix banner" />
 
 
