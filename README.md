@@ -7,7 +7,7 @@ Python developer based in Katowice, Poland.
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mateusz-CristalCodeai/githube-readme/output/snake-light.svg" />
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/Mateusz-CristalCodeai/githube-readme/output/snake-light.svg" />
 </picture>
----
+
 
 ## About
 
@@ -16,7 +16,7 @@ Python developer based in Katowice, Poland.
 
 Role: Python developer
 Location: Katowice, Poland
-Interests: Bimed, Finance, Code
+Interests: Biomed, Finance, Code
 Currently: Building an app for senior care facilities that helps manage HR resources and analyze medical data.
 
   </pre>
@@ -26,15 +26,12 @@ Currently: Building an app for senior care facilities that helps manage HR resou
 
 - Build projects that solve real problems
 - Experiment with new technologies and keep notes
-- Improve code quality with clean patterns and tests
+- I work not only at a desk, byt also directly with people
 
 ## Featured projects
 
-| Project | What it does | Stack |
-| --- | --- | --- |
-| [Project 1](link) | One sentence about the goal | [tech, tech] |
-| [Project 2](link) | One sentence about the goal | [tech, tech] |
-| [Project 3](link) | One sentence about the goal | [tech, tech] |
+| Novaap| Desktop application for managing medical processes with a graphical user interface, touch mode, and a local Bielik chat based on an LLM. | [Python, Qt (Qt Widgets/QML), PostgreSQL, Docker] |
+
 
 ## Tech stack
 - Systems:<br />
@@ -48,9 +45,9 @@ Currently: Building an app for senior care facilities that helps manage HR resou
 
 
 ## Now / Next
-- [ ] Ship [milestone]
-- [ ] Learn [topic]
-- [ ] Improve [area]
+-  Working on the release of a medical application  
+-  If the launch and sales are successful, I plan to develop more biomedical projects
+
 
 ## Contact
 
