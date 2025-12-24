@@ -34,7 +34,7 @@ Currently: Building an app for senior care facilities that helps manage HR resou
 
 
 ## Tech stack
-- Systems:<br />
+- Systems&Distros:<br />
   <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=arch" alt="Arch Linux" /></a> <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu" /></a> <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=windows" alt="Windows" /></a>
 - Languages:<br />
   <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,html" alt="Languages" /></a>
