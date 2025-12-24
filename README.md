@@ -54,6 +54,8 @@ Currently: Building an app for senior care facilities that helps manage HR resou
  <a href="https://www.linkedin.com/in/mateusz-nawrot-cristalcode/"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn" /></a>
 
 
+![snake animation](https://raw.githubusercontent.com/Mateusz-CristalCodeai/githube-readme/output/github-contribution-grid-snake-dark.svg)
+
 ---
 
 If you want to collaborate, feel free to reach out.
