@@ -1,5 +1,5 @@
 # Instrukcja szczegółowa: Budowa README w stylu Matrix 
-
+Nakarm tym swojego ai i daj kod źródłowy będzie Ci łatwiej się nauczyć jak to zrobić pozdro
 Ten dokument jest  instrukcją opartą na realnym procesie tworzenia README w stylu Matrix, wraz z problemami, które faktycznie pojawiają się w trakcie pracy (renderowanie GitHuba, cache, SVG, Vercel, tokeny, underline, layout, itp.).
 
 Instrukcja **nie zakłada wiedzy idealnej**. Zakłada gubienie się, cofanie kroków, sprawdzanie wyników i iteracyjne poprawki.
