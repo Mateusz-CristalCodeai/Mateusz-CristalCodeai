@@ -47,7 +47,7 @@ Currently: Building an app for senior care facilities that helps manage HR resou
 </a><br /><br />
 <strong>Frameworks</strong><br />
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=fastapi,qt" alt="Frameworks" />
+  <img src="https://skillicons.dev/icons?i=fastapi,qt,react" alt="Frameworks" />
 </a><br /><br />
 
 <strong>Tools</strong><br />
