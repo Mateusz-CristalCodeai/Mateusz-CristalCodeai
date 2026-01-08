@@ -52,7 +52,7 @@ Currently: Building an app for senior care facilities that helps manage HR resou
 
 <strong>Tools</strong><br />
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=docker,postgres,sqlite,git,figma,matlab" alt="Tools" />
+  <img src="https://skillicons.dev/icons?i=docker,postgres,sqlite,git,figma" alt="Tools" />
 </a>
 
 <br clear="right" />
