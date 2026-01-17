@@ -14,9 +14,9 @@ Python developer based in Katowice, Poland.
 <div align="left">
 
 
-Role: Python developer
-Location: Katowice, Poland
-Interests: Biomed, Finance, Code
+Role: Python developer.
+Location: Katowice, Poland.
+Interests: Biomed, Finance, Code.
 Currently: Building an app for senior care facilities that helps manage HR resources and analyze medical data.
 
   </pre>
