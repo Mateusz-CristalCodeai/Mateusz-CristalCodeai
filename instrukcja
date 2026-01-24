@@ -73,7 +73,7 @@ Zawsze zaczynaj od sprawdzenia tego punktu.
 
 ---
 
-## 2) Banner GIF – lokalny asset vs zewnętrzny link
+## 2) Banner (WebP/GIF) – lokalny asset vs zewnętrzny link
 
 ### Dlaczego lokalny plik jest lepszy
 
@@ -83,13 +83,13 @@ GitHub:
 * potrafi blokować hotlinking
 * inaczej renderuje obrazy z `raw.githubusercontent.com` i lokalne
 
-Dlatego **banner powinien być lokalnym plikiem**.
+Dlatego **banner powinien być lokalnym plikiem**. Aktualnie używam animowanego WebP zamiast GIF-a, bo waży znacząco mniej przy zachowaniu efektu.
 
 ### Struktura
 
 ```
 assets/
-  matrix_all_in_one_no_eye_strain.gif
+  matrix_all_in_one_no_eye_strain.webp
 ```
 
 ### Renderowanie
@@ -97,7 +97,7 @@ assets/
 Używamy składni:
 
 ```md
-# <img src="assets/matrix_all_in_one_no_eye_strain.gif" alt="Matrix banner" />
+# <img src="assets/matrix_all_in_one_no_eye_strain.webp" alt="Matrix banner" />
 ```
 
 Dlaczego nie `![alt](...)`?

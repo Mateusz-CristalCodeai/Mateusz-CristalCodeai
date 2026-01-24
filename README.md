@@ -1,4 +1,4 @@
-# <img src="assets/matrix_all_in_one_no_eye_strain.gif" alt="Matrix banner" />
+# <img src="assets/matrix_all_in_one_no_eye_strain.webp" alt="Matrix banner" />
 <font color="#00ff41">
 
 Python developer based in Katowice, Poland. 
@@ -33,7 +33,7 @@ Currently: Building an app for senior care facilities that helps manage HR resou
 | Novaap| Desktop application for managing medical processes with a graphical user interface, touch mode, and a local Bielik chat based on an LLM. | [Python, Qt (Qt Widgets/QML), PostgreSQL, Docker] |
 
 ## Tech stack
-<img src="assets/1000007684.jpg" alt="Tech stack illustration" height="450" align="right" />
+<img src="assets/1000007684.webp" alt="Tech stack illustration" height="450" align="right" />
 
 
 <strong>Systems & Distros</strong><br />
