@@ -69,8 +69,8 @@ Currently: Building an app for senior care facilities that helps manage HR resou
   />
   <img
     height="180"
-    src="assets/profile-top-languages.svg"
-    alt="Top Languages"
+    src="assets/profile-streak-stats.svg"
+    alt="GitHub streak"
   />
 </div>
 

@@ -1,0 +1,116 @@
+name: Refresh Profile Cards
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 3 * * *"
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - ".github/workflows/profile-cards.yml"
+      - "README.md"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Check out github-readme-stats
+        uses: actions/checkout@v4
+        with:
+          repository: anuraghazra/github-readme-stats
+          path: .tmp/github-readme-stats
+
+      - name: Check out github-readme-streak-stats
+        uses: actions/checkout@v4
+        with:
+          repository: DenverCoder1/github-readme-streak-stats
+          path: .tmp/github-readme-streak-stats
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.2"
+          tools: composer:v2
+
+      - name: Install upstream dependencies
+        run: |
+          npm ci --prefix .tmp/github-readme-stats
+          composer install --working-dir=.tmp/github-readme-streak-stats --no-dev --prefer-dist --no-interaction
+
+      - name: Render SVG cards from upstream projects
+        env:
+          PROFILE_USERNAME: Mateusz-CristalCodeai
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          token="${PROFILE_STATS_TOKEN:-$GITHUB_TOKEN}"
+          export PAT_1="$token"
+
+          cat > .tmp/github-readme-streak-stats/.env <<EOF
+          TOKEN=$token
+          EOF
+
+          (
+            cd .tmp/github-readme-stats
+            node express.js >/tmp/github-readme-stats.log 2>&1
+          ) &
+          stats_pid=$!
+
+          (
+            cd .tmp/github-readme-streak-stats
+            php -S 127.0.0.1:8001 -t src >/tmp/github-readme-streak-stats.log 2>&1
+          ) &
+          streak_pid=$!
+
+          cleanup() {
+            kill "$stats_pid" "$streak_pid" 2>/dev/null || true
+          }
+          trap cleanup EXIT
+
+          for attempt in $(seq 1 30); do
+            if curl -fsS "http://127.0.0.1:9000/api?username=$PROFILE_USERNAME" >/dev/null; then
+              break
+            fi
+            sleep 1
+          done
+
+          for attempt in $(seq 1 30); do
+            if curl -fsS "http://127.0.0.1:8001/index.php?user=$PROFILE_USERNAME" >/dev/null; then
+              break
+            fi
+            sleep 1
+          done
+
+          curl -fsSL "http://127.0.0.1:9000/api?username=$PROFILE_USERNAME&show_icons=true&theme=dark&hide_border=false" \
+            -o assets/profile-github-stats.svg
+
+          curl -fsSL "http://127.0.0.1:8001/index.php?user=$PROFILE_USERNAME&theme=dark&hide_border=false" \
+            -o assets/profile-streak-stats.svg
+
+      - name: Commit refreshed SVG assets
+        run: |
+          if git diff --quiet -- assets/profile-github-stats.svg assets/profile-streak-stats.svg; then
+            echo "No SVG changes detected."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile-github-stats.svg assets/profile-streak-stats.svg
+          git commit -m "chore(readme): refresh upstream profile cards"
+          git push
