@@ -1,0 +1,48 @@
+<svg width="1000" height="1340" viewBox="0 0 1000 1340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="panelTitle panelDesc">
+  <title id="panelTitle">Matrix-style README panel</title>
+  <desc id="panelDesc">Terminal inspired profile panel with black background, green frame, and green text.</desc>
+  <rect x="4" y="4" width="992" height="1332" rx="24" fill="#151515" stroke="#00FF41" stroke-width="4"/>
+  <rect x="24" y="24" width="952" height="58" rx="14" fill="#0D0D0D" stroke="#00FF41" stroke-opacity="0.45" stroke-width="2"/>
+  <circle cx="54" cy="53" r="8" fill="#00FF41"/>
+  <circle cx="82" cy="53" r="8" fill="#00FF41" fill-opacity="0.6"/>
+  <circle cx="110" cy="53" r="8" fill="#00FF41" fill-opacity="0.28"/>
+  <text x="140" y="60" fill="#CFFFD9" font-family="Courier New, monospace" font-size="22">mateusz@profile: ~/README.md</text>
+
+  <text x="48" y="140" fill="#00FF41" font-family="Courier New, monospace" font-size="30" font-weight="700">INTRO</text>
+  <line x1="48" y1="154" x2="952" y2="154" stroke="#00FF41" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="48" y="198" fill="#E8FFE8" font-family="Courier New, monospace" font-size="22">Python developer based in Katowice, Poland.</text>
+  <text x="48" y="232" fill="#00FF41" font-family="Courier New, monospace" font-size="22">I build practical tools for medical and HR workflows.</text>
+  <text x="48" y="266" fill="#00FF41" font-family="Courier New, monospace" font-size="22">I prefer useful software, real operators, and clear systems.</text>
+
+  <text x="48" y="336" fill="#00FF41" font-family="Courier New, monospace" font-size="30" font-weight="700">ABOUT</text>
+  <line x1="48" y1="350" x2="952" y2="350" stroke="#00FF41" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="48" y="394" fill="#00FF41" font-family="Courier New, monospace" font-size="22">ROLE ........ Python developer</text>
+  <text x="48" y="428" fill="#00FF41" font-family="Courier New, monospace" font-size="22">LOCATION .... Katowice, Poland</text>
+  <text x="48" y="462" fill="#00FF41" font-family="Courier New, monospace" font-size="22">INTERESTS ... biomed | finance | applied software</text>
+  <text x="48" y="496" fill="#00FF41" font-family="Courier New, monospace" font-size="22">FOCUS ....... senior care operations, HR flows, medical data</text>
+
+  <text x="48" y="566" fill="#00FF41" font-family="Courier New, monospace" font-size="30" font-weight="700">WHAT I DO</text>
+  <line x1="48" y1="580" x2="952" y2="580" stroke="#00FF41" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="48" y="624" fill="#00FF41" font-family="Courier New, monospace" font-size="22">&gt; build projects that solve real problems</text>
+  <text x="48" y="658" fill="#00FF41" font-family="Courier New, monospace" font-size="22">&gt; test new tools and keep only what actually works</text>
+  <text x="48" y="692" fill="#00FF41" font-family="Courier New, monospace" font-size="22">&gt; work with domain teams, not only from behind the desk</text>
+
+  <text x="48" y="762" fill="#00FF41" font-family="Courier New, monospace" font-size="30" font-weight="700">FEATURED PROJECT</text>
+  <line x1="48" y1="776" x2="952" y2="776" stroke="#00FF41" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="48" y="820" fill="#E8FFE8" font-family="Courier New, monospace" font-size="24" font-weight="700">NOVAAP</text>
+  <text x="48" y="854" fill="#00FF41" font-family="Courier New, monospace" font-size="22">Desktop app for medical processes with GUI, touch mode,</text>
+  <text x="48" y="888" fill="#00FF41" font-family="Courier New, monospace" font-size="22">and a local Bielik-based assistant integrated into the workflow.</text>
+  <text x="48" y="922" fill="#00FF41" font-family="Courier New, monospace" font-size="22">STACK ........ Python | Qt Widgets/QML | PostgreSQL | Docker</text>
+
+  <text x="48" y="992" fill="#00FF41" font-family="Courier New, monospace" font-size="30" font-weight="700">TECH STACK</text>
+  <line x1="48" y1="1006" x2="952" y2="1006" stroke="#00FF41" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="48" y="1050" fill="#00FF41" font-family="Courier New, monospace" font-size="22">SYSTEMS ...... Linux | Arch | Ubuntu | Windows</text>
+  <text x="48" y="1084" fill="#00FF41" font-family="Courier New, monospace" font-size="22">LANGUAGES .... Python | HTML</text>
+  <text x="48" y="1118" fill="#00FF41" font-family="Courier New, monospace" font-size="22">FRAMEWORKS ... FastAPI | Qt | React</text>
+  <text x="48" y="1152" fill="#00FF41" font-family="Courier New, monospace" font-size="22">TOOLS ........ Docker | PostgreSQL | SQLite | Git | Figma</text>
+
+  <text x="48" y="1222" fill="#00FF41" font-family="Courier New, monospace" font-size="30" font-weight="700">CURRENT FOCUS</text>
+  <line x1="48" y1="1236" x2="952" y2="1236" stroke="#00FF41" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="48" y="1280" fill="#00FF41" font-family="Courier New, monospace" font-size="22">Building software for senior care facilities to manage HR resources</text>
+  <text x="48" y="1314" fill="#00FF41" font-family="Courier New, monospace" font-size="22">and analyze medical data with real operators in mind.</text>
+</svg>
