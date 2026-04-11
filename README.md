@@ -64,12 +64,12 @@ Currently: Building an app for senior care facilities that helps manage HR resou
 <div style="display:flex; gap:12px; align-items:flex-start; flex-wrap:wrap;">
   <img
     height="180"
-    src="https://github-readme-stats-vercel-one.vercel.app/api?username=Mateusz-CristalCodeai&theme=dark&show_icons=true&hide_border=false&count_private=true"
+    src="assets/profile-github-stats.svg"
     alt="GitHub stats"
   />
   <img
     height="180"
-    src="https://github-readme-stats-vercel-one.vercel.app/api/top-langs/?username=Mateusz-CristalCodeai&theme=dark&show_icons=true&hide_border=false&layout=compact"
+    src="assets/profile-top-languages.svg"
     alt="Top Languages"
   />
 </div>
