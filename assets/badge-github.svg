@@ -1,9 +1,0 @@
-<svg width="320" height="72" viewBox="0 0 320 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="githubTitle githubDesc">
-  <title id="githubTitle">GitHub badge</title>
-  <desc id="githubDesc">Black and green badge linking to GitHub profile.</desc>
-  <rect x="2" y="2" width="316" height="68" rx="14" fill="#151515" stroke="#00FF41" stroke-width="4"/>
-  <rect x="18" y="18" width="96" height="36" rx="8" fill="#00FF41" fill-opacity="0.12"/>
-  <text x="34" y="42" fill="#00FF41" font-family="Courier New, monospace" font-size="24" font-weight="700">GITHUB</text>
-  <text x="132" y="31" fill="#E8FFE8" font-family="Courier New, monospace" font-size="18">Mateusz-</text>
-  <text x="132" y="51" fill="#00FF41" font-family="Courier New, monospace" font-size="18">CristalCodeai</text>
-</svg>
