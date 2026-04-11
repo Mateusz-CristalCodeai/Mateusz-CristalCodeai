@@ -1,0 +1,19 @@
+<svg width="900" height="220" viewBox="0 0 900 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="focusTitle focusDesc">
+  <title id="focusTitle">Current focus</title>
+  <desc id="focusDesc">Current project, stack, and collaboration note.</desc>
+  <rect x="2" y="2" width="896" height="216" rx="18" fill="#151515" stroke="#00FF41" stroke-width="4"/>
+  <rect x="36" y="34" width="170" height="34" rx="8" fill="#00FF41" fill-opacity="0.14"/>
+  <text x="58" y="57" fill="#00FF41" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">CURRENT FOCUS</text>
+  <text x="48" y="102" fill="#F5F5F5" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">Project:</text>
+  <text x="172" y="102" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="26">Novaap desktop platform</text>
+  <text x="48" y="138" fill="#F5F5F5" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">Scope:</text>
+  <text x="172" y="138" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="26">GUI, touch mode, and local AI assistant</text>
+  <text x="48" y="174" fill="#F5F5F5" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">Stack:</text>
+  <text x="172" y="174" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="26">Python, Qt, PostgreSQL, Docker</text>
+  <rect x="642" y="136" width="220" height="42" rx="12" fill="#00FF41" fill-opacity="0.14" stroke="#00FF41" stroke-opacity="0.45" stroke-width="2"/>
+  <text x="665" y="163" fill="#00FF41" font-family="Courier New, monospace" font-size="18">open to collaboration</text>
+  <path d="M650 96H856" stroke="#00FF41" stroke-opacity="0.4" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="810" cy="58" r="10" fill="#00FF41"/>
+  <circle cx="840" cy="58" r="10" fill="#00FF41" fill-opacity="0.6"/>
+  <circle cx="870" cy="58" r="10" fill="#00FF41" fill-opacity="0.28"/>
+</svg>
