@@ -2,20 +2,18 @@
 
 <p align="left">
   <a href="mailto:mateusz.nawrot.code.ai@gmail.com">
-    <img src="assets/badge-email.svg" alt="Email" width="32%" />
+    <img src="https://img.shields.io/badge/Email-mateusz.nawrot.code.ai%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://www.linkedin.com/in/mateusz-nawrot-cristalcode/">
-    <img src="assets/badge-linkedin.svg" alt="LinkedIn" width="32%" />
+    <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn" />
   </a>
-  <a href="https://github.com/Mateusz-CristalCodeai">
-    <img src="assets/badge-github.svg" alt="GitHub profile" width="32%" />
-  </a>
+  <img src="https://img.shields.io/github/followers/Mateusz-CristalCodeai?style=for-the-badge&logo=github&label=Followers&color=151515&labelColor=00FF41" alt="GitHub followers" />
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mateusz-CristalCodeai/githube-readme/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mateusz-CristalCodeai/githube-readme/output/snake-light.svg" />
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Mateusz-CristalCodeai/githube-readme/output/snake-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-frame-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/snake-frame-light.svg" />
+  <img alt="GitHub contribution snake" src="assets/snake-frame-light.svg" />
 </picture>
 
 <p align="left">

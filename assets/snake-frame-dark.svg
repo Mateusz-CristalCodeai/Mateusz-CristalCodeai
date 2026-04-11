@@ -1,0 +1,7 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="snakeDarkTitle snakeDarkDesc">
+  <title id="snakeDarkTitle">Framed GitHub snake dark</title>
+  <desc id="snakeDarkDesc">GitHub contribution snake inside a black framed panel.</desc>
+  <rect x="4" y="4" width="992" height="252" rx="24" fill="#151515" stroke="#00FF41" stroke-width="4"/>
+  <rect x="24" y="24" width="952" height="212" rx="16" fill="#0D0D0D" stroke="#00FF41" stroke-opacity="0.28" stroke-width="2"/>
+  <image href="https://raw.githubusercontent.com/Mateusz-CristalCodeai/githube-readme/output/snake-dark.svg" x="42" y="42" width="916" height="176" preserveAspectRatio="xMidYMid meet"/>
+</svg>
