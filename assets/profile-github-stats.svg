@@ -20,8 +20,8 @@
   <text class="metric-label" x="24" y="132">Stars</text>
   <text class="metric-value" x="24" y="162">0</text>
 
-  <text class="metric-label" x="220" y="132">Forks</text>
-  <text class="metric-value" x="220" y="162">0</text>
+  <text class="metric-label" x="220" y="132">Contributions</text>
+  <text class="metric-value" x="220" y="162">730</text>
   <text class="footer" x="24" y="172">public profile data // refreshed in-repo</text>
 
 </svg>

@@ -12,14 +12,19 @@
   <text class="title" x="24" y="38">Mateusz-CristalCodeai // top languages</text>
   
   <text class="body" x="24" y="70">JavaScript</text>
-  <text class="footer" x="362" y="70" text-anchor="end">99.9%</text>
+  <text class="footer" x="362" y="70" text-anchor="end">97.7%</text>
   <rect x="24" y="78" width="220" height="8" rx="4" fill="#132117"/>
-  <rect x="24" y="78" width="220" height="8" rx="4" fill="#f1e05a"/>
+  <rect x="24" y="78" width="215" height="8" rx="4" fill="#f1e05a"/>
 
-  <text class="body" x="24" y="92">Shell</text>
-  <text class="footer" x="362" y="92" text-anchor="end">0.1%</text>
+  <text class="body" x="24" y="92">Python</text>
+  <text class="footer" x="362" y="92" text-anchor="end">2.2%</text>
   <rect x="24" y="100" width="220" height="8" rx="4" fill="#132117"/>
-  <rect x="24" y="100" width="8" height="8" rx="4" fill="#89e051"/>
+  <rect x="24" y="100" width="8" height="8" rx="4" fill="#3572A5"/>
+
+  <text class="body" x="24" y="114">Shell</text>
+  <text class="footer" x="362" y="114" text-anchor="end">0.1%</text>
+  <rect x="24" y="122" width="220" height="8" rx="4" fill="#132117"/>
+  <rect x="24" y="122" width="8" height="8" rx="4" fill="#89e051"/>
 
   <text class="footer" x="24" y="174">aggregated from public, non-fork repositories</text>
 
