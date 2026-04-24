@@ -1,7 +1,7 @@
 # <img src="assets/matrix_all_in_one_no_eye_strain.webp" alt="Matrix banner" />
 <font color="#00ff41">
 
-Python developer based in Katowice, Poland. 
+Python engineer building healthcare, AI, and operational tools in Katowice, Poland.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mateusz-CristalCodeai/githube-readme/output/snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mateusz-CristalCodeai/githube-readme/output/snake-light.svg" />
@@ -14,45 +14,51 @@ Python developer based in Katowice, Poland.
 <div align="left">
 
 
-Role: Python developer.
+Role: Python engineer.
 Location: Katowice, Poland.
-Interests: Biomed, Finance, Code.
-Currently: Building an app for senior care facilities that helps manage HR resources and analyze medical data.
+Focus: Healthcare software, local AI, automation, and data-driven tools.
+Currently: Building products for medical workflows, senior-friendly mobile apps, and practical internal systems.
 
   </pre>
 </div>
 
 ## What I do
 
-- Build projects that solve real problems
-- Experiment with new technologies and keep notes
-- I work not only at a desk, byt also directly with people
+- Build software for real operational workflows
+- Turn manual tasks into usable tools, automation, and cleaner data flows
+- Work across desktop, web, and mobile when the product needs it
+- Stay close to users and translate real-world problems into working systems
 
 ## Featured projects
 
-| Novaap| Desktop application for managing medical processes with a graphical user interface, touch mode, and a local Bielik chat based on an LLM. | [Python, Qt (Qt Widgets/QML), PostgreSQL, Docker] |
+| Project | Description | Stack |
+| --- | --- | --- |
+| Novaaap | Desktop application for medical workflows with GUI, touch mode, OCR features, PostgreSQL, and local Bielik chat integration. | Python, PySide6/Qt, QML, PostgreSQL, Docker, FastAPI |
+| Telefon Senior | Mobile senior-mode app with caregiver and admin flows, simplified UI, secure PIN logic, and Android-first deployment path. | React Native, Expo, TypeScript |
+| gie-da | Backtesting and portfolio monitoring sandbox for ranking strategies, market analysis, and benchmark reporting. | Python, pandas, yfinance, matplotlib, openpyxl |
+| Gaminco | Web platform with telemetry backend, deployment automation, and repeatable operational workflows. | React, Vite, Node.js, PostgreSQL, PowerShell |
 
 ## Tech stack
 <img src="assets/1000007684.webp" alt="Tech stack illustration" height="450" align="right" />
 
 
-<strong>Systems & Distros</strong><br />
+<strong>Systems & Platforms</strong><br />
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=linux,arch,ubuntu,windows" alt="Systems & Distros" />
+  <img src="https://skillicons.dev/icons?i=linux,ubuntu,windows,docker,nginx" alt="Systems & Platforms" />
 </a><br /><br />
 
 <strong>Languages</strong><br />
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=python,html" alt="Languages" />
+  <img src="https://skillicons.dev/icons?i=python,ts,js,html,css,bash,powershell" alt="Languages" />
 </a><br /><br />
 <strong>Frameworks</strong><br />
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=fastapi,qt,react" alt="Frameworks" />
+  <img src="https://skillicons.dev/icons?i=fastapi,qt,react,vite,nodejs" alt="Frameworks" />
 </a><br /><br />
 
 <strong>Tools</strong><br />
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=docker,postgres,sqlite,git,figma" alt="Tools" />
+  <img src="https://skillicons.dev/icons?i=postgres,sqlite,git,github,figma" alt="Tools" />
 </a>
 
 <br clear="right" />
@@ -77,4 +83,4 @@ Currently: Building an app for senior care facilities that helps manage HR resou
 
 ---
 
-If you want to collaborate, feel free to reach out.
+Open to collaboration on healthcare software, AI automation, and data-driven products.
