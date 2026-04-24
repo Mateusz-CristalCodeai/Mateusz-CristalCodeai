@@ -38,7 +38,7 @@ Currently: Building products for medical workflows, senior-friendly mobile apps,
 | Telefon Senior | Mobile senior-mode app with caregiver and admin flows, simplified UI, secure PIN logic, and Android-first deployment path. | React Native, Expo, TypeScript |
 | gie-da | Backtesting and portfolio monitoring sandbox for ranking strategies, market analysis, and benchmark reporting. | Python, pandas, yfinance, matplotlib, openpyxl |
 | [naszdobrostan.org](https://naszdobrostan.org) | Foundation website focused on wellbeing, intergenerational communities, education, and support for seniors, built as a modern content-driven web experience. | React, TypeScript, Vite, Tailwind |
-| [Gaminco](https://github.com/Mateusz-CristalCodeai/strona_gaminco) | Automation and internal tooling for a consulting company: telemetry backend, newsletter/data flows, deployment scripts, VPS operations, and repeatable workflows for quality, security, and delivery. | React, Vite, Node.js, PostgreSQL, PowerShell |
+| [Gaminco](https://gaminco.eu/) | Automation and internal tooling for a consulting company: telemetry backend, newsletter/data flows, deployment scripts, VPS operations, and repeatable workflows for quality, security, and delivery. | React, Vite, Node.js, PostgreSQL, PowerShell |
 
 ## Tech stack
 <img src="assets/1000007684.webp" alt="Tech stack illustration" height="450" align="right" />
