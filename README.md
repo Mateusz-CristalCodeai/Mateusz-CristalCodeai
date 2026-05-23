@@ -1,7 +1,7 @@
 # <img src="assets/matrix_all_in_one_no_eye_strain.webp" alt="Matrix banner" />
 <font color="#00ff41">
 
-Python engineer building healthcare, AI, and operational tools in Katowice, Poland.
+Python / full-stack engineer building healthcare software, local AI tools, automation, and production-ready web/mobile systems in Katowice, Poland.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mateusz-CristalCodeai/githube-readme/output/snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mateusz-CristalCodeai/githube-readme/output/snake-light.svg" />
@@ -14,31 +14,41 @@ Python engineer building healthcare, AI, and operational tools in Katowice, Pola
 <div align="left">
 
 
-Role: Python engineer.
+Role: Python / full-stack engineer.
 Location: Katowice, Poland.
-Focus: Healthcare software, local AI, automation, data-driven tools, and VPS operations.
-Currently: Building products for medical workflows, senior-friendly mobile apps, and practical internal systems.
+Focus: Healthcare software, local AI, automation, data systems, full-stack delivery, and VPS operations.
+Currently: Building products for medical workflows, senior-friendly mobile apps, foundation/community websites, and practical internal systems.
 
-  </pre>
 </div>
 
 ## What I do
 
 - Build software for real operational workflows
-- Turn manual tasks into usable tools, automation, and cleaner data flows
-- Work across desktop, web, and mobile when the product needs it
-- Manage VPS servers and take care of server hardening, deployment, and operational security
+- Turn manual tasks into usable tools, automation, OCR flows, and cleaner data pipelines
+- Integrate local AI assistants and LLM-powered features where they solve practical problems
+- Work across desktop, web, backend, and mobile when the product needs it
+- Manage VPS servers, deployments, backups, hardening, and operational security
 - Stay close to users and translate real-world problems into working systems
+
+## Core competencies
+
+| Area | Practical skills |
+| --- | --- |
+| Healthcare & operational software | Medical workflow modeling, touch-friendly desktop apps, admin/caregiver flows, user-first process design |
+| AI & automation | Local Bielik/LLM integration, OCR-assisted workflows, prompt-based tooling, repeatable task automation |
+| Full-stack products | FastAPI backends, React/Vite frontends, React Native + Expo mobile apps, API integration, deployment-ready features |
+| Data & analytics | PostgreSQL/SQLite schemas, pandas analysis, backtesting, reporting, spreadsheet automation, benchmark views |
+| DevOps & security | Linux/VPS administration, Dockerized services, Nginx, deployment scripts, basic hardening, operational monitoring |
 
 ## Featured projects
 
 | Project | Description | Stack |
 | --- | --- | --- |
-| Novaaap | Desktop application for medical workflows with GUI, touch mode, OCR features, PostgreSQL, and local Bielik chat integration. | Python, PySide6/Qt, QML, PostgreSQL, Docker, FastAPI |
-| Telefon Senior | Mobile senior-mode app with caregiver and admin flows, simplified UI, secure PIN logic, and Android-first deployment path. | React Native, Expo, TypeScript |
-| gie-da | Backtesting and portfolio monitoring sandbox for ranking strategies, market analysis, and benchmark reporting. | Python, pandas, yfinance, matplotlib, openpyxl |
+| Novaaap | Desktop application for medical workflows with GUI, touch mode, OCR features, PostgreSQL, FastAPI services, Dockerized pieces, and local Bielik chat integration. | Python, PySide6/Qt, QML, PostgreSQL, Docker, FastAPI, OCR, local AI |
+| Telefon Senior | Mobile senior-mode app with caregiver/admin flows, simplified UI, secure PIN logic, Android-first deployment path, and practical accessibility decisions. | React Native, Expo, TypeScript |
+| gie-da | Backtesting and portfolio monitoring sandbox for ranking strategies, market analysis, benchmark reporting, and spreadsheet-friendly exports. | Python, pandas, yfinance, matplotlib, openpyxl |
 | [naszdobrostan.org](https://naszdobrostan.org) | Foundation website focused on wellbeing, intergenerational communities, education, and support for seniors, built as a modern content-driven web experience. | React, TypeScript, Vite, Tailwind |
-| [Gaminco](https://gaminco.eu/) | Automation and internal tooling for a consulting company: telemetry backend, newsletter/data flows, deployment scripts, VPS operations, and repeatable workflows for quality, security, and delivery. | React, Vite, Node.js, PostgreSQL, PowerShell |
+| [Gaminco](https://gaminco.eu/) | Automation and internal tooling for a consulting company: telemetry backend, newsletter/data flows, deployment scripts, VPS operations, and repeatable workflows for quality, security, and delivery. | React, Vite, Node.js, PostgreSQL, PowerShell, VPS |
 
 ## Tech stack
 <img src="assets/1000007684.webp" alt="Tech stack illustration" height="450" align="right" />
@@ -53,15 +63,19 @@ Currently: Building products for medical workflows, senior-friendly mobile apps,
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=python,ts,js,html,css,bash,powershell" alt="Languages" />
 </a><br /><br />
-<strong>Frameworks</strong><br />
+<strong>Backend, Frontend & Mobile</strong><br />
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=fastapi,qt,react,vite,nodejs" alt="Frameworks" />
+  <img src="https://skillicons.dev/icons?i=fastapi,qt,react,vite,nodejs,tailwind" alt="Backend, Frontend & Mobile" />
 </a><br /><br />
 
-<strong>Tools</strong><br />
+<strong>Data & Delivery</strong><br />
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=postgres,sqlite,git,github,figma" alt="Tools" />
+  <img src="https://skillicons.dev/icons?i=postgres,sqlite,git,github,figma" alt="Data & Delivery" />
 </a>
+
+<br /><br />
+
+Also working with PySide6/QML, React Native + Expo, pandas, yfinance, matplotlib, openpyxl, OCR, local Bielik/LLM workflows, GitHub Actions, Vercel-style deployments, VPS maintenance, and deployment automation.
 
 <br clear="right" />
 
@@ -85,4 +99,4 @@ Currently: Building products for medical workflows, senior-friendly mobile apps,
 
 ---
 
-Open to collaboration on healthcare software, AI automation, and data-driven products.
+Open to collaboration on healthcare software, AI automation, full-stack products, and data-driven operational tools.
