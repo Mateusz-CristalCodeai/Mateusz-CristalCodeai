@@ -51,7 +51,11 @@ Currently: Building products for medical workflows, senior-friendly mobile apps,
 | [Gaminco](https://gaminco.eu/) | Automation and internal tooling for a consulting company: telemetry backend, newsletter/data flows, deployment scripts, VPS operations, and repeatable workflows for quality, security, and delivery. | React, Vite, Node.js, PostgreSQL, PowerShell, VPS |
 
 ## Tech stack
-<img src="assets/1000007684.webp" alt="Tech stack illustration" height="450" align="right" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/1000007684-dark.webp" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/1000007684.webp" />
+  <img src="assets/1000007684.webp" alt="Tech stack illustration" height="450" align="right" />
+</picture>
 
 
 <strong>Systems & Platforms</strong><br />
